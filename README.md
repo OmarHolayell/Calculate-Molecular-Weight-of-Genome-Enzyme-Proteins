@@ -13,7 +13,7 @@ from Bio.SeqUtils import ProtParam
 import pandas as pd
 ```
 # create function that calculate mw of one protein
-
+```python
 def get_molecular_weight(protein_sequence):
     analyzed_seq = ProteinAnalysis(protein_sequence)
     return analyzed_seq.molecular_weight()
@@ -21,13 +21,16 @@ def get_molecular_weight(protein_sequence):
 # Example sequence
 protein_sequence = "MKRISTTITTTITITTGNGAG"
 print(get_molecular_weight(protein_sequence)/1000,"K Dalton")
+```
 
 # read fasta file path
+```python
 
 file_path=SeqIO.parse(protein fasta file path)
-
+```
 # create function to calculate mw for all proteins
-'''r
+```python
+
 def calculate_molecular_weights (file_path):
  
     data = []   # create list to store data
@@ -41,9 +44,26 @@ def calculate_molecular_weights (file_path):
 
     df = pd.DataFrame(data, columns=['Accession', 'Sequence', 'MolecularWeight(dalton)'])  # create data frame to store variables
     return df
-'''
-    # calling function
-
+```
+# calling function
+```python
+df = calculate_molecular_weights(file_path)
+print(df)
+```
+# read PTT file
+```python
+pttfile=pd.read_csv(pttfile path)
+```
+# insert Locus tag to data frame
+```python
+df['Locus tag']=pttfile['Locus tag']
+df
+```
+# create copy of data frame and drop column
+```python
+data_frame2=df.copy()
+data_frame2=data_frame2.drop(['Accession', 'Sequence'], axis=1)
+```
 
 
 
