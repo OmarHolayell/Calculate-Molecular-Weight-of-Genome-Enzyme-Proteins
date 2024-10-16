@@ -3,7 +3,7 @@ EgCompBio Diploma
 
 # import and install libraries
 
-'''r
+```python
 !pip install BioPython
 from Bio import SeqIO
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
@@ -11,7 +11,7 @@ from Bio.SeqUtils import molecular_weight
 from Bio.Seq import Seq
 from Bio.SeqUtils import ProtParam
 import pandas as pd
-'''
+```
 # create function that calculate mw of one protein
 
 def get_molecular_weight(protein_sequence):
