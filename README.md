@@ -1,6 +1,6 @@
 # Molecular-Weight-of-Genome-Enzyme
 EgCompBio Diploma
-
+<img src="docs/source/mypy_light.svg" alt="language used" width="300px"/>
 
 # import and install libraries
 
