@@ -3,7 +3,7 @@ EgCompBio Diploma
 <img src="docs/source/mypy_light.svg" alt="language used" width="300px"/>
 
 ![python](https://github.com/user-attachments/assets/9444fa14-9129-4e0c-97a5-5fe1a81a663d)
-# import and install libraries
+##  🧬 **import and install libraries**
 
 ```python
 !pip install BioPython
