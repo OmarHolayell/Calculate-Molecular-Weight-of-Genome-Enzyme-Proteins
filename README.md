@@ -2,7 +2,7 @@
 EgCompBio Diploma
 
 ![Python](https://img.shields.io/badge/Language-Python-blue)   
-![Profile Views](https://komarev.com/ghpvc/?Omar Holayell=your-username)
+![Profile Views](https://komarev.com/ghpvc/?OmarHolayell=your-username)
 
 
 # import and install libraries
