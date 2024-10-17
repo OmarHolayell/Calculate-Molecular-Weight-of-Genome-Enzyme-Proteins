@@ -1,8 +1,7 @@
 # Molecular-Weight-of-Genome-Enzyme
 EgCompBio Diploma
 
-![Python](https://img.shields.io/badge/Language-Python-blue)   
-![Profile Views](https://komarev.com/ghpvc/?username=OmarHolayell)
+![Python](https://img.shields.io/badge/Language-Python-blue)  ![Profile Views](https://komarev.com/ghpvc/?username=OmarHolayell)
 
 
 
